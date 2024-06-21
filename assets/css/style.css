@@ -43,7 +43,7 @@ nav li{
 }
 nav a{
     height: 100%;
-    padding: 0 50px;
+    padding: 0 10px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -66,7 +66,7 @@ nav li:first-child{
     color: var(--white);
 }
 .hideOnMobile {
-    padding-right: 80px;
+    padding-right: 90px;
 }
 
 .sidebar{
@@ -106,7 +106,7 @@ nav li:first-child{
    
 }
  .contenent-accueil{
-    padding: 30px 0 5px 25px;
+    padding: 30px 0 5px 0px;
     display: flex;
     margin: auto;
     width: 90%;
@@ -188,16 +188,26 @@ nav li:first-child{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     flex-direction: column;
-    gap: 30px;
+    gap: 90px;
+
 }
 .contenent-services .grid .items{
-    padding: 30px;
-    text-align: center;
+     display: flex;
+     flex-direction: column;
     justify-content: center;
     box-shadow: 0px 0px 3px 3px #f5f5f5;
+    padding: auto 50px auto 50px;
+     align-items: center; 
 }
+
+.contenent-services .grid .items h3, .contenent-services .grid .items p{
+    width: 70%;
+    text-align: left;
+
+}  
 .contenent-services .grid .items img{
     width: 70%;
+   
     
 }
 #a-propos-de-nous{
@@ -208,15 +218,15 @@ nav li:first-child{
 .contenent-a-propos{
     display: flex;
     width: 90%;
-    margin: 90px auto 10px auto;
+    margin: 30px auto 10px auto;
+    flex-direction: column;
 }
 .contenent-a-propos .left, .contenent-a-propos .right{
     width: 50%;
 }
-.contenent-a-propos .right h1{
-     color: #284F54;
-     font-size: 40px;
 
+.contenu-a-propos{
+    display: flex;
 }
 .contenent-a-propos .right p{
     line-height: 2;
@@ -226,6 +236,7 @@ nav li:first-child{
 .contenent-a-propos .left img{
     height: 80%;
     width: 80%;
+    margin-top: 25px;
 }
 
 #temoin{
@@ -253,7 +264,6 @@ nav li:first-child{
 
 
 }
-
 
 #contact{
     display: flex;
@@ -1016,7 +1026,7 @@ footer{
 
 
 
-        @media (max-width: 800px) {
+     @media (max-width: 800px) {
     
             nav{
                 
@@ -1083,7 +1093,6 @@ footer{
                 width: 100%;
                 color: #284F54;
                 margin-top: 20px;
-                /* justify-content: center; */
                 text-align: center;
                 align-items: center;
              }
@@ -1100,7 +1109,7 @@ footer{
                 height:auto;
                
             }
-             .contenent-accueil{
+            .contenent-accueil{
                 padding: 30px 0 5px 25px;
                 display: flex;
                 margin: auto;
@@ -1247,7 +1256,6 @@ footer{
             
             
             }
-            
             
             #contact{
                 display: flex;
@@ -1403,6 +1411,10 @@ footer{
     
     .contenent-accueil .left {
         width: 100%;
+        font-size: 20px;
+    }
+    .contenent-accueil .left h1{
+        font-size: 20px;
     }
     
     #nos-services {
@@ -1424,7 +1436,19 @@ footer{
         width: 100%;
         margin: auto;
     }
-    
+    .contenu-a-propos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .contenu-a-propos .right{
+        width: 50%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
     .contenent-a-propos .left, .contenent-a-propos .right {
         width: 90%;
     }
@@ -1522,7 +1546,9 @@ footer{
     .hideOnMobile {
         display: none; 
     }
-    
+    .big-title h1, .big-title span{
+        font-size: 30px;
+    }
     #accueil {
         flex-direction: column;
         height: auto; 
@@ -1540,9 +1566,12 @@ footer{
     .contenent-accueil .left {
         width: 100%;
     }
+    .contenent-accueil .left h1{
+        font-size: 10%;
+    }
     #nos-services{
         height: auto;
-    }
+    } 
     .contenent-services{
         height: auto;
     }
@@ -1590,7 +1619,8 @@ footer{
     }
     .formulaire .right {
         width: 75%;
-        
+        justify-content: center;
+        text-align: ;
 
     }
     .coordonnees {
