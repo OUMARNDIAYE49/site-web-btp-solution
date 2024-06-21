@@ -9,8 +9,3 @@ function hideSidebar() {
     sidebar.style.display = 'none';
 }
 
-// Add event listeners to all sections
-document.getElementById('contact').addEventListener('click', function() {
-    hideSidebar();
-    window.location.hash = '#contact';
-});
