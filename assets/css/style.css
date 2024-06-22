@@ -1,10 +1,10 @@
 :root {
-    --primary: #007bff;
-    --lightprimary: #0056b3;
+    --Gossamer: #284f54;
+    --Manatee: #8c9ca4;
     --white: #ffffff;
-    --silver: #bcbcbc9e;
+    --SlateGray: #7c8c94;
     --defaultlinkColor: #333;
-    --muted: #777777;
+    --DarkSlateBlue: #38586c;
     --whtebbg: #f8fafc;
 }
 body{
@@ -118,7 +118,7 @@ nav li:first-child{
 .contenent-accueil .left{
     width: 70%;
     height: 100%;
-    display: flex;
+    display: flex; 
     margin-top: 5px;
     flex-direction: column;
     justify-content: center;
@@ -399,14 +399,7 @@ footer{
         width: 70%;
         height: auto;
     }
-    .sidebar button{
-        width: 35%;
-        height: 48px;
-        border-radius: 5px;
-        border: none;
-        background-color: var(--lightprimary);
-        color: var(--white);
-    }
+  
     .hideOnMobile {
         padding-right: 80px;
     }
@@ -427,14 +420,7 @@ footer{
     .sidebar li{
        width: 100%;
     }
-    .sidebar a{
-        width: 100%;
-        color: #284F54;
-        margin-top: 20px;
-        text-align: center;
-        align-items: center;
-     }
-     
+  
     .menu-bar{
         display: none;
     }
@@ -468,10 +454,9 @@ footer{
     }
     
     #accueil .left h1{
-        font-size: 40px;
+        font-size: 35px;
         font-weight: bold;
         line-height: 2;
-    
     
     }
     
@@ -512,13 +497,13 @@ footer{
     
     }
     .big-title h1{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
         text-align: center;
     
     }
     .big-title span{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
         text-align: center;
         color: #284F54;
@@ -554,14 +539,10 @@ footer{
     .contenent-a-propos .left, .contenent-a-propos .right{
         width: 50%;
     }
-    .contenent-a-propos .right h1{
-         color: #284F54;
-         font-size: 40px;
     
-    }
     .contenent-a-propos .right p{
         line-height: 2;
-        font-size: 20px;
+        font-size: 17px;
     
     }
     .contenent-a-propos .left img{
@@ -728,14 +709,7 @@ footer{
             width: 70%;
             height: auto;
         }
-        .sidebar button{
-            width: 35%;
-            height: 48px;
-            border-radius: 5px;
-            border: none;
-            background-color: var(--lightprimary);
-            color: var(--white);
-        }
+      
         .hideOnMobile {
             padding-right: 60px;
         }
@@ -841,13 +815,13 @@ footer{
         
         }
         .big-title h1{
-            font-size: 40px;
+            font-size: 30px;
             font-weight: bold;
             text-align: center;
         
         }
         .big-title span{
-            font-size: 40px;
+            font-size: 30px;
             font-weight: bold;
             text-align: center;
             color: #284F54;
@@ -1060,14 +1034,7 @@ footer{
                 width: 70%;
                 height: auto;
             }
-            .sidebar button{
-                width: 35%;
-                height: 48px;
-                border-radius: 5px;
-                border: none;
-                background-color: var(--lightprimary);
-                color: var(--white);
-            }
+         
             .hideOnMobile {
                 padding-right: 50px;
             }
@@ -1175,13 +1142,13 @@ footer{
             
             }
             .big-title h1{
-                font-size: 40px;
+                font-size: 30px;
                 font-weight: bold;
                 text-align: center;
             
             }
             .big-title span{
-                font-size: 40px;
+                font-size: 30px;
                 font-weight: bold;
                 text-align: center;
                 color: #284F54;
@@ -1217,15 +1184,22 @@ footer{
             }
             .contenent-a-propos .left, .contenent-a-propos .right{
                 width: 50%;
+                justify-content: center;
+                
+            }
+            contenent-a-propos .right{
+                width: 50%;
+                justify-content: center;
+                
             }
             .contenent-a-propos .right h1{
                  color: #284F54;
-                 font-size: 40px;
+                 font-size: 30px;
             
             }
             .contenent-a-propos .right p{
                 line-height: 2;
-                font-size: 20px;
+                font-size: 15px;
             
             }
             .contenent-a-propos .left img{
@@ -1279,7 +1253,7 @@ footer{
             form{
                 display: flex;
                 flex-direction: column;
-                border: 2px solid #284F54;
+                border: 1px solid #284F54;
                 width: 60%;
                 padding: 50px;
                 gap: 20px;
@@ -1549,7 +1523,7 @@ footer{
         display: none; 
     }
     .big-title h1, .big-title span{
-        font-size: 30px;
+        font-size: 25px;
     }
     #accueil {
         flex-direction: column;
@@ -1563,13 +1537,14 @@ footer{
         gap: 5px; 
         width: 90%;
         margin: auto;
+
     }
     
     .contenent-accueil .left {
         width: 100%;
     }
     .contenent-accueil .left h1{
-        font-size: 10%;
+        font-size: 1%;
     }
     #nos-services{
         height: auto;
